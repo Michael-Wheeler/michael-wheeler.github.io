@@ -1,182 +1,124 @@
-<!DOCTYPE html>
-<!--
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE HTML>
+
 <html>
-
 <head>
-	<title>Michael Wheeler</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <title>Michael Wheeler Personal Site</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
 </head>
-
 <body class="is-preload">
-	<!-- Header -->
-	<section id="header">
-		<header>
-			<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-			<h1>Michael Wheeler</h1>
-			<p>Software Development & DevOps Consultant</p>
-		</header>
-		<footer>
-			<a href="#banner" class="button style2 scrolly-middle">Overview</a>
-		</footer>
-	</section>
 
-	<!-- Banner -->
-	<section id="banner">
-		<p>
-			I build tools with software and I'll try my hand at anything interesting and challenging. </br>
-			So far I have built websites, desktop apps, CI/CD pipelines, test automation frameworks,
-			data pipelines, retail POS and dashboards. </br>
-			I enjoy working in small, cross-functional, agile teams
-			using TDD/BDD to write well tested code deployed through automated pipelines. </br>
-		</p>
-		<footer>
-			<a href="#first" class="button style2 scrolly">Experience</a>
-		</footer>
-	</section>
+<!-- Wrapper-->
+<div id="wrapper">
 
-	<!-- Software Development -->
-	<article id="first" class="container box style1 right">
-		<a href="#" class="image fit"><img src="images/software-dev.jpg" alt="" /></a>
-		<div class="inner">
-			<header>
-				<h2>
-					Software Development
-				</h2>
-			</header>
-			<p>
-				My first love is building a tool to solve a problem.
-				I have been lucky enough to work on the diverse projects listed above.
-				Here is a short summary of languages and tools I have utilised.
-				Languages: Python, Java, NodeJS, PHP, C#, Elixir (Powershell, Bash).</br>
-				Tools: ElectronJS, Symfony, ASP.NET, Grafana.</br>
-				Databases: MySQL, SQLite, MongoDB
-			</p>
-		</div>
-	</article>
+    <!-- Nav -->
+    <nav id="nav">
+        <a href="#" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+        <a href="https://github.com/Michael-Wheeler" class="icon brands fa-github"><span>Git Hub</span></a>
+        <a href="https://www.linkedin.com/in/michael-wheeler-62b78499/"
+           class="icon brands fa-linkedin"><span>Linkedin</span></a>
+        <a href="documents/michael-wheeler-cv.pdf" class="icon fa-file-pdf"><span>CV Download</span></a>
+    </nav>
 
-	<!-- DevOps -->
-	<article class="container box style1 left">
-		<a href="#" class="image fit"><img src="images/devops.png" alt="" /></a>
-		<div class="inner">
-			<header>
-				<h2>
-					DevOps
-				</h2>
-			</header>
-			<p>
-				Working in small, cross-functional teams has given me exposure to the whole project lifecycle.
-				Because of this, I have built CI/CD pipelines with several use cases.
-				The tools I have used include Jenkins, Ansible, Terraform, Azure, AWS, Powershell, Bash scripts,
-				Kubernetes and Rancher.
-			</p>
-		</div>
-	</article>
+    <!-- Main -->
+    <div id="main">
 
-	<!-- Data -->
-	<article id="first" class="container box style1 right">
-		<a href="#" class="image fit"><img src="images/data-analysis.jpg" alt="" /></a>
-		<div class="inner">
-			<header>
-				<h2>
-					Data Analysis
-				</h2>
-			</header>
-			<p>
-				Before beginning my career as a software engineer I completed a Masters degree in Physics.
-				During the degree I learnt to collect and analyse data using mathematical methods.
-				I utilised this in the context of software when creating data pipelines using Python and Elasticsearch
-				as well as
-				building Grafana dashboards for data presentation.
-			</p>
-		</div>
-	</article>
+        <!-- Me -->
+        <article id="home" class="panel intro">
+            <header>
+                <h1>Michael Wheeler</h1>
+                <p>Software Developer and Devops Engineer</p>
+            </header>
+            <a href="#work" class="jumplink pic">
+                <img src="images/me.jpg" alt=""/>
+            </a>
+        </article>
 
-	<!-- Test Automation -->
-	<article class="container box style1 left">
-		<a href="#" class="image fit"><img src="images/test-auto.png" alt="" /></a>
-		<div class="inner">
-			<header>
-				<h2>
-					Test Automation
-				</h2>
-			</header>
-			<p>
-				I built a C# test automation framework at a FTSE 100 company for a large-scale digital transformation
-				project.
-				This experience has helped me properly use different testing techniques to build robust, stable code.
-			</p>
-		</div>
-	</article>
+        <!-- Work -->
+        <article id="work" class="panel">
+            <header>
+                <h2>Projects</h2>
+            </header>
+            <h3>Web Development</h3>
+            <p>
+                Maintaining and extending REST API's, creating microservices with REST and event based communication,
+                optimising performance of highly scalable and high traffic systems.
 
-	<!-- Portfolio -->
-	<!-- <article class="container box style2">
-		<header>
-			<h2>Personal Projects</h2>
-		</header>
-		<div class="inner gallery">
-			<div class="row gtr-0">
-				<div class="col-3 col-12-mobile">
-					<a href="https://github.com/Michael-Wheeler/cycle_saver_api" class="image fit"><img
-							src="images/fulls/cycle-saver-image.jpg" alt="" title="cycle saver" />
-					</a>
-				</div>
-				<div class="col-3 col-12-mobile">
-					<a href="https://github.com/Michael-Wheeler/rochambo" class="image fit">
-						<img src="images/fulls/rochambo.png" alt="" title="Rock Paper Scissors" />
-					</a>
-				</div>
-				<div class="col-3 col-12-mobile">
-					<a href="https://medium.com/@michael.wheeler856/an-introduction-to-electron-5e61e2d91e11"
-						class="image fit"><img src="images/electron.jpg" alt="" title="Electron Tutorial" /></a>
-				</div>
-				<div class="col-3 col-12-mobile">
-					<a class="image fit"><img src="images/thumbs/04.jpg" alt=""
-							title="I'll have a cup of Disneyland, please" /></a>
-				</div>
-			</div>
-		</div>
-		</div>
-	</article> -->
+            </p>
 
-	<section id="footer">
-		<ul class="icons">
-			<li>
-				<a href="https://www.linkedin.com/in/michael-wheeler-62b78499/" class="icon brands fa-github"><span
-						class="label">GitHub</span></a>
-			</li>
-			<li>
-				<a href="https://github.com/Michael-Wheeler" class="icon brands fa-linkedin-in"><span
-						class="label">LinkedIn</span></a>
-			</li>
-			<li>
-				<a href="https://medium.com/@michael.wheeler856" class="icon brands fa-medium"><span
-						class="label">Medium</span></a>
-			</li>
-		</ul>
-		<div class="copyright">
-			<ul class="menu">
-				<li>&copy; Untitled. All rights reserved.</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</div>
-	</section>
+            <h3>DevOps</h3>
+            <p>
+                Working in small, cross-functional teams has given me exposure to the whole project lifecycle. Because
+                of this, I have built CI/CD pipelines with several use cases. The tools I have used include Jenkins,
+                Ansible, Terraform, Azure, AWS, Powershell, Bash scripts, Kubernetes and Rancher.
+            </p>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+            <h3>Data Engineering</h3>
+            <p>
+                Before beginning my career as a software engineer I completed a Masters degree in Physics. During the
+                degree I learnt to collect and analyse data using mathematical methods. I utilised this in the context
+                of software when creating data pipelines using Python and Elasticsearch as well as building Grafana
+                dashboards for data presentation.
+            </p>
+
+            <h3>Test Automation</h3>
+            <p>
+                I have built a C# test automation framework at a FTSE 100 company for a large-scale digital
+                transformation
+                project. This experience has helped me properly use different testing techniques to build robust, stable
+                code.
+            </p>
+
+            <h3>Languages and Tools</h3>
+            <p>
+                I have been lucky enough to work on the diverse projects listed above. Here is a short summary of
+                some of the languages and tools I have utilised.
+
+            <ul>
+                Languages:
+                <li>Python</li>
+                <li>Java</li>
+                <li>NodeJS</li>
+                <li>C#</li>
+                <li>PHP</li>
+            </ul>
+            Tools:
+            <ul>
+                <li>Electron JS</li>
+                <li>Docker</li>
+                <li>Rancher</li>
+                <li>Jenkins</li>
+                <li>Redis Streams</li>
+                <li>MySQL</li>
+                <li>Mongo DB</li>
+                <li>Grafana</li>
+            </ul>
+            </p>
+        </article>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <ul class="copyright">
+            <li>&copy; Untitled.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
-
 </html>
